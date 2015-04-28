@@ -84,7 +84,7 @@ LIBTCFS =
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LN_S = ln -s
 LTLIBOBJS =  putgrent.lo putspent.lo sgetgrent.lo sgetpwent.lo sgetspent.lo
-MAKEINFO = /home/users/tfields/linux/raw/smaller-than-busybox/shadow/missing makeinfo
+MAKEINFO = /home/users/tfields/linux/raw/shadow-19990827/missing makeinfo
 MKINSTALLDIRS = ./mkinstalldirs
 MSGFMT = /usr/bin/msgfmt
 NM = /usr/bin/nm -B
@@ -130,7 +130,7 @@ myname.o obscure.o pam_pass.o pwd2spwd.o pwdcheck.o pwd_init.o rlogin.o \
 salt.o setugid.o setup.o setupenv.o shell.o strtoday.o suauth.o sub.o \
 sulog.o ttytype.o tz.o ulimit.o utmp.o valid.o xmalloc.o
 AR = ar
-CFLAGS = -O2 -Wall
+CFLAGS = -m32
 COMPILE = $(CC) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
 LTCOMPILE = $(LIBTOOL) --mode=compile $(CC) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
 CCLD = $(CC)

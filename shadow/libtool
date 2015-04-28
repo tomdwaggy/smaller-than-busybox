@@ -36,7 +36,7 @@ if test "${CDPATH+set}" = set; then CDPATH=; export CDPATH; fi
 ### BEGIN LIBTOOL CONFIG
 # Libtool was configured as follows, on host mire:
 #
-# CC="diet -Os gcc -static -m32" CFLAGS="-O2 -Wall" CPPFLAGS="" \
+# CC="diet -Os gcc -static -m32" CFLAGS="-m32" CPPFLAGS="" \
 # LD="/usr/bin/ld" LDFLAGS="-s" LIBS="" \
 # NM="/usr/bin/nm -B" RANLIB="ranlib" LN_S="ln -s" \
 # DLLTOOL="" OBJDUMP="" AS="" \

@@ -922,6 +922,7 @@ auth_ok:
 			SYSLOG((LOG_CRIT, BAD_ROOT_LOGIN, fromhost));
 			failed = 1;
 		}
+#undef LOGIN_ACCESS
 #ifdef LOGIN_ACCESS
 		if (!failed && !login_access(username, *hostname ? hostname : tty)) {
 			SYSLOG((LOG_WARN, LOGIN_REFUSED, username, fromhost));

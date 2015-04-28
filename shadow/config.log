@@ -10,12 +10,9 @@ configure:770: checking for working automake
 configure:783: checking for working autoheader
 configure:796: checking for working makeinfo
 configure:823: checking for gcc
-configure:936: checking whether the C compiler (diet -Os gcc -static -m32 -O2 -Wall -s) works
-configure:952: diet -Os gcc -static -m32 -o conftest -O2 -Wall  -s conftest.c  1>&5
-configure:949:1: warning: return type defaults to 'int' [-Wreturn-type]
- main(){return(0);}
- ^
-configure:978: checking whether the C compiler (diet -Os gcc -static -m32 -O2 -Wall -s) is a cross-compiler
+configure:936: checking whether the C compiler (diet -Os gcc -static -m32 -m32 -s) works
+configure:952: diet -Os gcc -static -m32 -o conftest -m32  -s conftest.c  1>&5
+configure:978: checking whether the C compiler (diet -Os gcc -static -m32 -m32 -s) is a cross-compiler
 configure:983: checking whether we are using GNU C
 configure:1011: checking whether diet -Os gcc -static -m32 accepts -g
 configure:1043: checking for POSIXized ISC
@@ -31,31 +28,22 @@ configure:1596: checking for ld used by GCC
 configure:1659: checking if the linker (/usr/bin/ld) is GNU ld
 configure:1675: checking for BSD-compatible nm
 ltconfig:603: checking for object suffix
-ltconfig:604: diet -Os gcc -static -m32 -c -O2 -Wall  conftest.c 1>&5
+ltconfig:604: diet -Os gcc -static -m32 -c -m32  conftest.c 1>&5
 ltconfig:776: checking if diet PIC flag -fPIC works
-ltconfig:777: diet -Os gcc -static -m32 -c -O2 -Wall -fPIC -DPIC  conftest.c 1>&5
+ltconfig:777: diet -Os gcc -static -m32 -c -m32 -fPIC -DPIC  conftest.c 1>&5
 ltconfig:829: checking if diet supports -c -o file.o
-ltconfig:830: diet -Os gcc -static -m32 -c -O2 -Wall -o out/conftest2.o  conftest.c 1>&5
+ltconfig:830: diet -Os gcc -static -m32 -c -m32 -o out/conftest2.o  conftest.c 1>&5
 ltconfig:862: checking if diet supports -c -o file.lo
-ltconfig:863: diet -Os gcc -static -m32 -c -O2 -Wall -c -o conftest.lo  conftest.c 1>&5
+ltconfig:863: diet -Os gcc -static -m32 -c -m32 -c -o conftest.lo  conftest.c 1>&5
 ltconfig:914: checking if diet supports -fno-rtti -fno-exceptions
-ltconfig:915: diet -Os gcc -static -m32 -c -O2 -Wall -fno-rtti -fno-exceptions -c conftest.c  conftest.c 1>&5
+ltconfig:915: diet -Os gcc -static -m32 -c -m32 -fno-rtti -fno-exceptions -c conftest.c  conftest.c 1>&5
 ltconfig:958: checking if diet static flag -static works
-ltconfig:959: diet -Os gcc -static -m32 -o conftest -O2 -Wall  -s -static conftest.c  1>&5
-conftest.c:1:1: warning: return type defaults to 'int' [-Wreturn-type]
- main(){return(0);}
- ^
+ltconfig:959: diet -Os gcc -static -m32 -o conftest -m32  -s -static conftest.c  1>&5
 GNU ld (GNU Binutils for Debian) 2.25
 ltconfig:1592: checking if global_symbol_pipe works
-ltconfig:1593: diet -Os gcc -static -m32 -c -O2 -Wall  conftest.c 1>&5
-conftest.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
- main(){nm_test_var='a';nm_test_func();return(0);}
- ^
+ltconfig:1593: diet -Os gcc -static -m32 -c -m32  conftest.c 1>&5
 ltconfig:1596: eval "/usr/bin/nm -B conftest.o | sed -n -e 's/^.*[ 	]\([ABCDGISTW]\)[ 	][ 	]*\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/  /p' > conftest.nm"
-ltconfig:1648: diet -Os gcc -static -m32 -o conftest -O2 -Wall -fno-builtin -fno-rtti -fno-exceptions  -s conftest.c conftstm.o 1>&5
-conftest.c:6:13: warning: 'main' is usually a function [-Wmain]
- extern char main;
-             ^
+ltconfig:1648: diet -Os gcc -static -m32 -o conftest -m32 -fno-builtin -fno-rtti -fno-exceptions  -s conftest.c conftstm.o 1>&5
 configure:1877: checking for dirent.h that defines DIR
 configure:1915: checking for opendir in -ldir
 configure:1998: checking for ANSI C header files
@@ -185,8 +173,8 @@ configure:5563: checking for msgfmt
 configure:5597: checking for dcgettext
 configure:5652: checking for gmsgfmt
 configure:5688: checking for xgettext
-configure:5728: diet -Os gcc -static -m32 -o conftest -O2 -Wall  -s conftest.c  1>&5
-/tmp/ccGVwARd.o: In function `main':
+configure:5728: diet -Os gcc -static -m32 -o conftest -m32  -s conftest.c  1>&5
+/tmp/ccnyCVsU.o: In function `main':
 conftest.c:(.text.startup+0x1): undefined reference to `_nl_msg_cat_cntr'
 collect2: error: ld returned 1 exit status
 configure: failed program was:

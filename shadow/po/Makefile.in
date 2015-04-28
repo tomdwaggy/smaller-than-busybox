@@ -36,7 +36,7 @@ XGETTEXT = PATH=../src:$$PATH /usr/bin/xgettext
 MSGMERGE = PATH=../src:$$PATH msgmerge
 
 DEFS = -DHAVE_CONFIG_H
-CFLAGS = -O2 -Wall
+CFLAGS = -m32
 CPPFLAGS = 
 
 INCLUDES = -I.. -I$(top_srcdir)/intl
