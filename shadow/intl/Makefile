@@ -51,7 +51,7 @@ RANLIB = ranlib
 DEFS = -DLOCALEDIR=\"$(localedir)\" -DGNULOCALEDIR=\"$(gnulocaledir)\" \
 -DLOCALE_ALIAS_PATH=\"$(aliaspath)\" -DHAVE_CONFIG_H
 CPPFLAGS = 
-CFLAGS = -m32
+CFLAGS = -O2 -Wall
 LDFLAGS = -s
 
 COMPILE = $(CC) -c $(DEFS) $(INCLUDES) $(CPPFLAGS) $(CFLAGS) $(XCFLAGS)

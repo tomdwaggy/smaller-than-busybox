@@ -82,7 +82,7 @@ LIBTCFS =
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LN_S = ln -s
 LTLIBOBJS =  putgrent.lo putspent.lo sgetgrent.lo sgetpwent.lo sgetspent.lo
-MAKEINFO = /home/users/tfields/linux/raw/shadow-19990827/missing makeinfo
+MAKEINFO = /home/users/tfields/linux/raw/smaller-than-busybox/shadow/missing makeinfo
 MKINSTALLDIRS = ./mkinstalldirs
 MSGFMT = /usr/bin/msgfmt
 NM = /usr/bin/nm -B
@@ -368,7 +368,7 @@ pwunconv_LDADD = $(LDADD)
 pwunconv_DEPENDENCIES =  ../lib/libshadow.la ../libmisc/libmisc.a \
 ../lib/libshadow.a
 pwunconv_LDFLAGS = 
-CFLAGS = -m32
+CFLAGS = -O2 -Wall
 COMPILE = $(CC) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
 LTCOMPILE = $(LIBTOOL) --mode=compile $(CC) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
 CCLD = $(CC)

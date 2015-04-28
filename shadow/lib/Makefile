@@ -84,7 +84,7 @@ LIBTCFS =
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LN_S = ln -s
 LTLIBOBJS =  putgrent.lo putspent.lo sgetgrent.lo sgetpwent.lo sgetspent.lo
-MAKEINFO = /home/users/tfields/linux/raw/shadow-19990827/missing makeinfo
+MAKEINFO = /home/users/tfields/linux/raw/smaller-than-busybox/shadow/missing makeinfo
 MKINSTALLDIRS = ./mkinstalldirs
 MSGFMT = /usr/bin/msgfmt
 NM = /usr/bin/nm -B
@@ -161,7 +161,7 @@ libshadow_la_OBJECTS =  commonio.lo dialchk.lo dialup.lo encrypt.lo \
 fputsx.lo getdef.lo getpass.lo groupio.lo gshadow.lo lockpw.lo port.lo \
 pwauth.lo pwio.lo rad64.lo sgroupio.lo shadow.lo shadowio.lo utent.lo \
 tcfsio.lo
-CFLAGS = -m32
+CFLAGS = -O2 -Wall
 COMPILE = $(CC) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
 LTCOMPILE = $(LIBTOOL) --mode=compile $(CC) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
 CCLD = $(CC)

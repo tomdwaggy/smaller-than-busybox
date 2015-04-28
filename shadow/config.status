@@ -40,7 +40,7 @@ sed 's/%@/@@/; s/@%/@@/; s/%g$/@g/; /@g$/s/[\\&%]/\\&/g;
 /^[ 	]*VPATH[ 	]*=[^:]*$/d
 
 s%@SHELL@%/bin/sh%g
-s%@CFLAGS@%-m32%g
+s%@CFLAGS@%-O2 -Wall%g
 s%@CPPFLAGS@%%g
 s%@CXXFLAGS@%%g
 s%@FFLAGS@%%g
@@ -71,7 +71,7 @@ s%@ACLOCAL@%aclocal%g
 s%@AUTOCONF@%autoconf%g
 s%@AUTOMAKE@%automake%g
 s%@AUTOHEADER@%autoheader%g
-s%@MAKEINFO@%/home/users/tfields/linux/raw/shadow-19990827/missing makeinfo%g
+s%@MAKEINFO@%/home/users/tfields/linux/raw/smaller-than-busybox/shadow/missing makeinfo%g
 s%@SET_MAKE@%%g
 s%@CC@%diet -Os gcc -static -m32%g
 s%@LN_S@%ln -s%g
