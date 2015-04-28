@@ -1,0 +1,188 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:588: checking for a BSD compatible install
+configure:641: checking whether build environment is sane
+configure:698: checking whether make sets ${MAKE}
+configure:744: checking for working aclocal
+configure:757: checking for working autoconf
+configure:770: checking for working automake
+configure:783: checking for working autoheader
+configure:796: checking for working makeinfo
+configure:823: checking for gcc
+configure:936: checking whether the C compiler (diet -Os gcc -static -m32 -m32 -s) works
+configure:952: diet -Os gcc -static -m32 -o conftest -m32  -s conftest.c  1>&5
+configure:978: checking whether the C compiler (diet -Os gcc -static -m32 -m32 -s) is a cross-compiler
+configure:983: checking whether we are using GNU C
+configure:1011: checking whether diet -Os gcc -static -m32 accepts -g
+configure:1043: checking for POSIXized ISC
+configure:1064: checking whether ln -s works
+configure:1089: checking for bison
+configure:1123: checking for diet -Os gcc -static -m32 option to accept ANSI C
+configure:1200: checking how to run the C preprocessor
+configure:1282: checking for function prototypes
+configure:1516: checking host system type
+configure:1537: checking build system type
+configure:1557: checking for ranlib
+configure:1596: checking for ld used by GCC
+configure:1659: checking if the linker (/usr/bin/ld) is GNU ld
+configure:1675: checking for BSD-compatible nm
+ltconfig:603: checking for object suffix
+ltconfig:604: diet -Os gcc -static -m32 -c -m32  conftest.c 1>&5
+ltconfig:776: checking if diet PIC flag -fPIC works
+ltconfig:777: diet -Os gcc -static -m32 -c -m32 -fPIC -DPIC  conftest.c 1>&5
+ltconfig:829: checking if diet supports -c -o file.o
+ltconfig:830: diet -Os gcc -static -m32 -c -m32 -o out/conftest2.o  conftest.c 1>&5
+ltconfig:862: checking if diet supports -c -o file.lo
+ltconfig:863: diet -Os gcc -static -m32 -c -m32 -c -o conftest.lo  conftest.c 1>&5
+ltconfig:914: checking if diet supports -fno-rtti -fno-exceptions
+ltconfig:915: diet -Os gcc -static -m32 -c -m32 -fno-rtti -fno-exceptions -c conftest.c  conftest.c 1>&5
+ltconfig:958: checking if diet static flag -static works
+ltconfig:959: diet -Os gcc -static -m32 -o conftest -m32  -s -static conftest.c  1>&5
+GNU ld (GNU Binutils for Debian) 2.25
+ltconfig:1592: checking if global_symbol_pipe works
+ltconfig:1593: diet -Os gcc -static -m32 -c -m32  conftest.c 1>&5
+ltconfig:1596: eval "/usr/bin/nm -B conftest.o | sed -n -e 's/^.*[ 	]\([ABCDGISTW]\)[ 	][ 	]*\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/  /p' > conftest.nm"
+ltconfig:1648: diet -Os gcc -static -m32 -o conftest -m32 -fno-builtin -fno-rtti -fno-exceptions  -s conftest.c conftstm.o 1>&5
+configure:1877: checking for dirent.h that defines DIR
+configure:1915: checking for opendir in -ldir
+configure:1998: checking for ANSI C header files
+configure:2102: checking for sys/wait.h that is POSIX.1 compatible
+configure:2147: checking for fcntl.h
+configure:2147: checking for limits.h
+configure:2147: checking for unistd.h
+configure:2147: checking for sys/time.h
+configure:2147: checking for utmp.h
+configure:2147: checking for utmpx.h
+configure:2187: checking for termios.h
+configure:2187: checking for termio.h
+configure:2187: checking for sgtty.h
+configure:2187: checking for sys/ioctl.h
+configure:2187: checking for syslog.h
+configure:2227: checking for paths.h
+configure:2227: checking for usersec.h
+configure:2227: checking for utime.h
+configure:2227: checking for ulimit.h
+configure:2227: checking for sys/resource.h
+configure:2267: checking for gshadow.h
+configure:2267: checking for shadow.h
+configure:2267: checking for lastlog.h
+configure:2267: checking for rpc/key_prot.h
+configure:2305: checking for working const
+configure:2380: checking for uid_t in sys/types.h
+configure:2414: checking for off_t
+configure:2447: checking for pid_t
+configure:2480: checking for mode_t
+configure:2513: checking for st_rdev in struct stat
+configure:2547: checking whether stat file-mode macros are broken
+configure:2603: checking whether time.h and sys/time.h may both be included
+configure:2638: checking whether struct tm is in sys/time.h or time.h
+configure:2673: checking for pw_age in struct passwd
+configure:2707: checking for pw_comment in struct passwd
+configure:2741: checking for pw_quota in struct passwd
+configure:2776: checking for ut_host in struct utmp
+configure:2810: checking for ut_user in struct utmp
+configure:2846: checking for ll_host in struct lastlog
+configure:2881: checking type of array argument to getgroups
+configure:2953: checking whether diet -Os gcc -static -m32 needs -traditional
+configure:2999: checking return type of signal handlers
+configure:3040: checking whether utime accepts a null argument
+configure:3085: checking for strftime
+configure:3183: checking for a64l
+configure:3183: checking for fchmod
+configure:3183: checking for fchown
+configure:3183: checking for fsync
+configure:3183: checking for getgroups
+configure:3183: checking for gethostname
+configure:3183: checking for getspnam
+configure:3238: checking for gettimeofday
+configure:3238: checking for getusershell
+configure:3238: checking for getutent
+configure:3238: checking for initgroups
+configure:3238: checking for lckpwdf
+configure:3293: checking for memcpy
+configure:3293: checking for memset
+configure:3293: checking for setgroups
+configure:3293: checking for sigaction
+configure:3293: checking for strchr
+configure:3293: checking for updwtmp
+configure:3293: checking for updwtmpx
+configure:3349: checking for mkdir
+configure:3349: checking for putgrent
+configure:3349: checking for putpwent
+configure:3349: checking for putspent
+configure:3349: checking for rename
+configure:3349: checking for rmdir
+configure:3406: checking for sgetgrent
+configure:3406: checking for sgetpwent
+configure:3406: checking for sgetspent
+configure:3463: checking for snprintf
+configure:3463: checking for strcasecmp
+configure:3463: checking for strdup
+configure:3463: checking for strerror
+configure:3463: checking for strstr
+configure:3519: checking for setpgrp
+configure:3567: checking whether setpgrp takes no argument
+configure:3621: checking for working shadow group support
+configure:3666: checking location of shared mail directory
+configure:3681: checking location of user mail file
+configure:3696: checking location of utmp
+configure:3711: checking location of faillog/lastlog/wtmp
+configure:3732: checking location of the passwd program
+configure:3834: checking for inet_ntoa
+configure:3929: checking for socket
+configure:4024: checking for gethostbyname
+configure:4122: checking for getsecretkey
+configure:4171: checking for getsecretkey in -lrpcsvc
+configure:4227: checking for crypt in -lcrypt
+configure:4283: checking for FascistCheck in -lcrack
+configure:4326: checking for FascistHistory in -lcrack
+configure:4369: checking for FascistHistoryPw in -lcrack
+configure:4601: checking for inline
+configure:4641: checking for size_t
+configure:4676: checking for working alloca.h
+configure:4709: checking for alloca
+configure:4911: checking for unistd.h
+configure:4950: checking for getpagesize
+configure:5003: checking for working mmap
+configure:5179: checking for argz.h
+configure:5179: checking for limits.h
+configure:5179: checking for locale.h
+configure:5179: checking for nl_types.h
+configure:5179: checking for malloc.h
+configure:5179: checking for string.h
+configure:5179: checking for unistd.h
+configure:5179: checking for sys/param.h
+configure:5219: checking for getcwd
+configure:5219: checking for munmap
+configure:5219: checking for putenv
+configure:5219: checking for setenv
+configure:5219: checking for setlocale
+configure:5219: checking for strchr
+configure:5219: checking for strcasecmp
+configure:5219: checking for strdup
+configure:5219: checking for __argz_count
+configure:5219: checking for __argz_stringify
+configure:5219: checking for __argz_next
+configure:5338: checking for LC_MESSAGES
+configure:5371: checking whether NLS is requested
+configure:5391: checking whether included gettext is requested
+configure:5410: checking for libintl.h
+configure:5437: checking for gettext in libc
+configure:5563: checking for msgfmt
+configure:5597: checking for dcgettext
+configure:5652: checking for gmsgfmt
+configure:5688: checking for xgettext
+configure:5728: diet -Os gcc -static -m32 -o conftest -m32  -s conftest.c  1>&5
+/tmp/ccnyCVsU.o: In function `main':
+conftest.c:(.text.startup+0x1): undefined reference to `_nl_msg_cat_cntr'
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 5720 "configure"
+#include "confdefs.h"
+
+int main() {
+extern int _nl_msg_cat_cntr;
+			       return _nl_msg_cat_cntr
+; return 0; }
+configure:6186: checking for catalogs to be installed
